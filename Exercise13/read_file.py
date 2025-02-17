@@ -11,6 +11,7 @@ lines_list = open('pelican.txt', 'r').read().splitlines()
 print(type(lines_list))
 print(lines_list)
 number_of_items = len(lines_list)
+# len counts the number of items
 print("The number of items:", number_of_items)
 
 

@@ -20,6 +20,6 @@ print(cheese)
 
 cheese.extend(['Feta', 'Brie'])
 # method (.extend) only takes one argument
-# [] creates one argument of list values
+# [] one argument containing list values
 
 print(cheese)

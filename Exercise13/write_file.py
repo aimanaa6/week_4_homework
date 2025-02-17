@@ -1,11 +1,12 @@
 file = open('pelican.txt', 'a')
 # opened file 'pelican.text' to append mode (add)
-# new context can be added rather than overwriting
+# new content can be added rather than overwriting
 
 first_line = file.write("A wonderful bird is the pelican\n")
 # the method .write writes the first line of text to the file (string)
 
 second_line = file.write("His bill holds more than his belican\n")
+# second line written in file with new line
 
 lines = ["He can take in his beak,\n", "Enough food for a week,\n", "But I'm damned if I see how the helican.\n"]
 # list of lines
