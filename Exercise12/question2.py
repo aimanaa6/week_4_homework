@@ -1,7 +1,3 @@
-tup = 'Hello',
-print(len(tup))
-# comma after the string - Python treats it as a tuple
-# tuples do not need brackets
 tup = 'Hello'
 print(len(tup))
 # len is a function that counts the number of characters
