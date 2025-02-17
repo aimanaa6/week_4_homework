@@ -10,6 +10,9 @@ lines_list = open('sample/pelican.txt', 'r').read().splitlines()
 # breaks at every new line character
 print(type(lines_list))
 print(lines_list)
+number_of_items = len(lines_list)
+print("The number of items:", number_of_items)
+
 
 for line in (lines_list):
 # for loop iterates through each line in list
