@@ -1,5 +1,5 @@
 names_tuple = ('Rod', 'Jane', 'Freddy')
-# the variable is a tuple - immutable
+# the variable is a tuple (commas) - immutable
 
 try:
     print("####### TRY #######")

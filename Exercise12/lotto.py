@@ -1,5 +1,6 @@
 import random
 # imports module of code
+# random - random variable generators (selections/numbers)
 # help(random)
 
 lottery_numbers = random.sample(range(1,51),6)
